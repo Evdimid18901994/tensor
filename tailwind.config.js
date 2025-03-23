@@ -2,7 +2,14 @@
 export default {
   content: [],
   theme: {
-    extend: {},
+    extend: {
+      margin: {
+        "20p": "25%",
+      },
+      screens: {
+        smart: {"max": "480px"}
+      }
+    },
   },
   plugins: [],
 }
